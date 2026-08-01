@@ -1,8 +1,27 @@
 aid: rupeek
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rupeek.png
 name: Rupeek
-description: 'Rupeek is a company surfaced as a portfolio company of accel, ggv-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Rupeek is an asset-backed online gold loan company operating across India,
+  enabling customers to borrow money by pledging gold jewelry as collateral. Its products
+  include gold loans (from around 30,000 up to 1.5 crore rupees), gold loan balance
+  transfers, the Rupeek Gold Card, part/full gold release, and an online repayment
+  portal. The company partners with banks such as Federal Bank, Indian Bank, and South
+  Indian Bank, offers 100% insurance coverage via New India Assurance, and delivers
+  its consumer experience primarily through its website and highly-rated mobile app.
+  It is ISO 27001 certified. Rupeek is a consumer fintech surfaced as a portfolio company
+  of Accel and GGV Capital; it publishes no public developer API surface, so this profile
+  is an identity-only company record.'
 url: https://raw.githubusercontent.com/api-evangelist/rupeek/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Fintech
+- Lending
+- Gold Loan
+- Financial Services
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.rupeek.com
+  url: https://www.rupeek.com
+- type: Support
+  url: https://rupeek.com/contact
+- type: TermsOfService
+  url: https://rupeek.com/terms
+- type: PrivacyPolicy
+  url: https://rupeek.com/privacy
+- type: DomainSecurity
+  url: security/rupeek-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
